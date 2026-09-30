@@ -1,0 +1,13 @@
+[project]
+name = "fuel-route-optimizer"
+version = "1.0.0"
+description = "Django API that plans the cheapest fuel stops for a US road trip."
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+extend-exclude = ["api/migrations"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]

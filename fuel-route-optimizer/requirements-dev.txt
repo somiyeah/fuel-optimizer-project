@@ -1,0 +1,3 @@
+-r requirements.txt
+zipcodes==3.0.0  # only to regenerate data/gazetteer/*.csv.gz (python manage.py build_gazetteer)
+ruff==0.16.9     # lint and format
